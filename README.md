@@ -16,7 +16,7 @@ Copy LoggerAppenderLogzIO.php into your log4php appender directory and make sure
 </appender>
 ```
 
-Parameters remoteHost and port are usally fixed, but can bet overridden in XML. The token is required and can be found under your logz.io settings.
+Parameters remoteHost and port are usally fixed, but can be overridden in XML. The token is required and can be found under your logz.io settings.
 
 By default the following fields are transmitted to logz4php: "loglevel","message","loggername"
 
